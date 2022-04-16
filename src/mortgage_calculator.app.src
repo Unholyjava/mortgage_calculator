@@ -1,0 +1,16 @@
+{application, mortgage_calculator,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, [mortgage_calculator_sup]},
+  {mod, {mortgage_calculator_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    jsx
+   ]},
+  {env,[]},
+  {modules, [mortgage_calculator, mortgage_calculator_app, mortgage_calculator_sup]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

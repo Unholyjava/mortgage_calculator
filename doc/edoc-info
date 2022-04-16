@@ -1,0 +1,4 @@
+%% encoding: UTF-8
+{application,mortgage_calculator}.
+{modules,[data_handler,db_ets,mortgage_calculator,mortgage_calculator_app,
+          mortgage_calculator_sup,not_found_handler,util,validate]}.
