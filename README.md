@@ -18,9 +18,6 @@ Application has initial data of banks in file ./config/sys.config
 Application use native Erlang key-value storage - ets-table,
 but can easily be converted to another database.
 
-To try this application and have right view of XML-output,
-you need any internet browser or command line with XML-output support.
-
 To build the application use the following command:
 $ make
 
